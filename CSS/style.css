@@ -1,0 +1,337 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Speedee, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+}
+
+.fit{
+    object-fit: contain;
+}
+
+
+.navigation {
+    box-shadow: 1px 2px 4px rgb(228, 228, 228);
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    height: 150px;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.logo {
+    width: 10%;
+
+}
+
+.logo img {
+    width: 108px;
+}
+
+/* NAV BAR SECTION */
+.navbar {
+    width: 80%;
+    height: inherit;
+}
+
+/* TOP NAVIGATION */
+.topnav {
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topnav a {
+    margin: 0px 20px 0px;
+    font-size: 14px;
+
+}
+
+button {
+    background-color: #ffbc0d;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.nav2 button a {
+    text-align: center;
+    display: block;
+    font-size: 15px;
+}
+
+.bottomnav {
+    height: 45%;
+    display: flex;
+    align-items: center;
+}
+
+.bottomnav a {
+    margin: 0px 15px 0px;
+    font-size: 15px;
+}
+
+/* SECTION 1 */
+.section1 {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.sec1_img {
+    width: 55%;
+    height: 95%;
+}
+
+.sec1_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec1_text {
+    width: 35%;
+    height: 100%;
+    color: #333;
+    margin-left: 10px;
+    margin-top: 50px;
+
+}
+
+.sec1_text h2 {
+    font-size: 40px;
+    color: #292929;
+    line-height: 1;
+}
+
+p.dis {
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 10px 0px 5px 10px;
+    color: #292929;
+}
+
+P.note {
+
+    font-size: 11px;
+    line-height: 1.42857143;
+    margin: 15px 0px 15px 10px;
+}
+
+button.sec {
+    background-color: #ffbc0d;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 13px 20px;
+    display: block;
+}
+
+.section2 {
+    width: 90%;
+    justify-content: space-evenly;
+    display: flex;
+    margin: auto;
+}
+
+.sec2_row {
+    width: 20%;
+    height: auto;
+    color: #292929;
+    display: flex;
+    margin-top: 100px;
+}
+
+.sec2_row li {
+    list-style: none;
+    display: list-item;
+    line-height: 30px;
+}
+
+.sec2_row h3 {
+    margin-bottom: 10px;
+}
+
+.footernav {
+    width: 85%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #cfcfcf;
+
+}
+
+
+.social {
+    width: 50%;
+    margin-top: 50px;
+    
+}
+
+a.social {
+    margin-right: 20px;
+}
+
+.store {
+    width: 35%;
+    margin-top: 50px;
+}
+
+.end {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: auto;
+    align-items: center;
+}
+
+.end1 {
+    width: 70%;
+    margin-top:20px;
+}
+
+.end_r1{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.end_r2{
+    width: 100%;
+}
+
+
+a.end1 {
+    text-decoration: none;
+    color: #292929;
+    margin-right: 35px;
+}
+
+.end2 {
+    width: 40%;
+    height: inherit;
+}
+
+.end2 img{
+    width: 7%;
+
+}
+
+footer{
+    margin-bottom: 250px;
+}
+
+/* DOWNLOAD PAGE  */
+.herosection{
+    height: 80px;
+    width: 100%;
+    color: #292929;
+}
+
+h1.herosection{
+    font-size: 55px;
+    margin-top: 40px;
+    text-align: center;
+}
+.wrapper{
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+
+}
+.wrap{
+    width: 85%;
+    margin: auto;
+    color: #292929;
+}
+
+.wrap h2 {
+    font-size: 40px;
+    line-height: 1.6;
+}
+
+.wrap p {
+    line-height: 2;
+}
+
+/* ABOUT OUR FOOD */
+
+.banner{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.banner_img{
+    width: 85%;
+    height: 520px;
+    margin: auto;
+}
+
+.banner_img img{
+    object-fit: contain;
+}
+
+
+section{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.teaser{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    margin-top: 110px;
+}
+
+.teaser-img{
+    width: 49%;
+}
+
+.teaser-img img{
+    width: 100%;
+    height: inherit;
+    object-fit: contain;
+}
+
+.teaser-img img:hover{
+box-shadow: 2px 3px 5px rgb(201, 201, 201);
+}
+.btn{
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.teaser-img h4{
+    font-size: 40px;
+    margin: 15px 0px;
+    font-weight: 400;
+}
+.teaser-img p{
+    font-size: 16px;
+    line-height: 2;
+}
+
+p.teaser_note {
+    font-size: 10px;
+}
